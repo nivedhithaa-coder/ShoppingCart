@@ -1,0 +1,30 @@
+.modalbg{
+    position:fixed;
+    top:0%;
+    left:0%;
+    background-color: rgba(0,0,0,0.4);
+    height:100%;
+    width:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.modalContainer{
+    background-color: white;
+    color:#D4Af37;
+    font-size: 16px;
+    width:100%;
+    max-width: 800px;
+    min-height: 300px;
+    max-height: calc(100vh - 210px);
+    overflow-y: auto;
+    
+    
+}
+.remove{
+    background-color: #D4Af37;
+    color:white;
+    border-radius: 5px;
+    padding: 2px;
+    min-width:80px;
+}
