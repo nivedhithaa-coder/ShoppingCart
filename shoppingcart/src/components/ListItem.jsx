@@ -2,7 +2,7 @@ import logo from '../assets/cart.svg'
 export default function ListItem({ data={}, handleAddtoCart}) {
     //console.log(data)
     return (
-        <div className="card">
+        <div className="card flex flex-col items-center justify-center">
             <img className="mb-2 "
                 style={{ width: 150, height: 150 }}
 
